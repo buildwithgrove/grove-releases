@@ -1,26 +1,31 @@
 # Grove Chrome Extension <!-- omit in toc -->
 
-- [Installation](#installation)
+- [Setup - Using the Extension](#setup---using-the-extension)
+  - [One Time Setup - How to enable Beta extensions?](#one-time-setup---how-to-enable-beta-extensions)
+  - [Recurring Setup - How to update to the latest version?](#recurring-setup---how-to-update-to-the-latest-version)
+- [Development - Releasing the extension](#development---releasing-the-extension)
 
-## Installation
+## Setup - Using the Extension
 
-1. **[Download the latest release](https://github.com/buildwithgrove/grove-releases/releases/download/grove-extension-latest/grove-extension.zip)**
+### One Time Setup - How to enable Beta extensions?
 
-2. **Unzip the file**
+1. Go to [chrome://extensions](chrome://extensions)
+2. Click `Developer mode` (top-right corner)
 
-   - **Mac:** Double-click the downloaded `.zip` file
-   - **Windows:** Right-click the `.zip` file → `Extract All...`
+   ![toggle-beta](./images/developer_mode_toggle.png)
 
-3. **Open Chrome Extensions**
+3. You can now install beta extensions by clicking `Load unpacked` and selecting the unzipped folder:
 
-   - Type `chrome://extensions` in your browser's address bar and press Enter
+   ![load-unpacked](./images/load_unpacked.png)
 
-4. **Enable Developer Mode**
+### Recurring Setup - How to update to the latest version?
 
-   - Toggle `Developer mode` ON (top-right corner)
+0. Ensure you have followed the instructions above at least once.
+1. [Download the latest release](https://github.com/buildwithgrove/grove-releases/releases/download/grove-extension-latest/grove-extension.zip)
+2. Unzip the file on your computer and move it to a location of your choice.
+3. Go to [chrome://extensions](chrome://extensions)
+4. Click `Load unpacked` and select the unzipped folder
 
-5. **Load the extension**
-   - Click `Load unpacked`
-   - Select the unzipped folder (e.g., `grove-extension-v1.0.3`)
+## Development - Releasing the extension
 
-You're all set!
+Coming soon.
