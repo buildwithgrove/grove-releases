@@ -21,7 +21,7 @@
 ### Recurring Setup - How to update to the latest version?
 
 0. Ensure you have followed the instructions above at least once.
-1. [Download the latest release](https://github.com/buildwithgrove/grove-releases/releases/download/grove-extension-latest/grove-extension.zip)
+1. [Download the latest release zip](https://github.com/buildwithgrove/grove-releases/releases/download/grove-extension-latest/grove-extension.zip); you can find the link to the latest release [here](https://github.com/buildwithgrove/grove-releases/releases/latest).
 2. Unzip the file on your computer and move it to a location of your choice.
 3. Go to [chrome://extensions](chrome://extensions)
 4. Click `Load unpacked` and select the unzipped folder
