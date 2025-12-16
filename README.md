@@ -1,31 +1,42 @@
-# Grove Chrome Extension <!-- omit in toc -->
+# Grove Extension - Beta Releases <!-- omit in toc -->
 
-- [Setup - Using the Extension](#setup---using-the-extension)
-  - [One Time Setup - How to enable Beta extensions?](#one-time-setup---how-to-enable-beta-extensions)
-  - [Recurring Setup - How to update to the latest version?](#recurring-setup---how-to-update-to-the-latest-version)
-- [Development - Releasing the extension](#development---releasing-the-extension)
+This repository hosts beta releases of the Grove Chrome Extension for early access to new features before they reach the Chrome Web Store.
 
-## Setup - Using the Extension
+- [Installation](#installation)
+  - [Chrome Web Store (Stable)](#chrome-web-store-stable)
+  - [Beta Side-loading](#beta-side-loading)
+- [Updating the Beta Extension](#updating-the-beta-extension)
 
-### One Time Setup - How to enable Beta extensions?
+## Installation
 
-1. Go to [chrome://extensions](chrome://extensions)
-2. Click `Developer mode` (top-right corner)
+### Chrome Web Store (Stable)
 
-   ![toggle-beta](./images/developer_mode_toggle.png)
+For the stable release, install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/grove-tip-extension/jheejecmpfgifgdodgipilpgfaiecndm).
 
-3. You can now install beta extensions by clicking `Load unpacked` and selecting the unzipped folder:
+### Beta Side-loading
+
+For early access to new features:
+
+1. [Download the latest release zip](https://github.com/buildwithgrove/grove-releases/releases/latest)
+2. Unzip to a folder on your computer
+3. Go to `chrome://extensions`
+4. Enable "Developer mode" (top-right corner)
+
+   ![toggle-developer-mode](./images/developer_mode_toggle.png)
+
+5. Click "Load unpacked" and select the unzipped folder
 
    ![load-unpacked](./images/load_unpacked.png)
 
-### Recurring Setup - How to update to the latest version?
+**Auto-updates:** Beta installs automatically check for new releases every 4 hours. When an update is available, a red badge appears on the extension icon and a banner shows in the popup.
 
-0. Ensure you have followed the instructions above at least once.
-1. [Download the latest release zip](https://github.com/buildwithgrove/grove-releases/releases/download/grove-extension-latest/grove-extension.zip); you can find the link to the latest release [here](https://github.com/buildwithgrove/grove-releases/releases/latest).
-2. Unzip the file on your computer and move it to a location of your choice.
-3. Go to [chrome://extensions](chrome://extensions)
-4. Click `Load unpacked` and select the unzipped folder
+## Updating the Beta Extension
 
-## Development - Releasing the extension
+When you see the update notification:
 
-Coming soon.
+1. Download the new zip from the link in the banner (or from [releases](https://github.com/buildwithgrove/grove-releases/releases/latest))
+2. Unzip to a folder (can replace the old folder or use a new one)
+3. Go to `chrome://extensions`
+4. Click the refresh icon on the Grove extension card, OR remove and re-add via "Load unpacked"
+
+Note: Chrome Web Store installs are auto-updated by Chrome and won't see beta release notifications.
