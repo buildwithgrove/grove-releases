@@ -1,7 +1,6 @@
 # Grove Extension - Beta Releases <!-- omit in toc -->
 
-[![Download Latest](https://img.shields.io/github/v/release/buildwithgrove/grove-releases?label=Download%20Latest&style=for-the-badge)](https://github.com/buildwithgrove/grove-releases/releases/latest)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jheejecmpfgifgdodgipilpgfaiecndm?label=Stable%20Release&style=for-the-badge&logo=googlechrome)](https://chrome.google.com/webstore/detail/grove-tip-extension/jheejecmpfgifgdodgipilpgfaiecndm)
+[![Download Latest](https://img.shields.io/badge/Download-v1.0.5-389f58?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/buildwithgrove/grove-releases/releases/latest)
 
 Early access to new Grove Chrome Extension features before they reach the Chrome Web Store.
 
@@ -11,12 +10,6 @@ Early access to new Grove Chrome Extension features before they reach the Chrome
 - [Updating](#updating)
 
 ## Installation
-
-### Stable Release
-
-Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/grove-tip-extension/jheejecmpfgifgdodgipilpgfaiecndm) for automatic updates via Chrome.
-
-### Beta Release
 
 1. [**Download the latest zip**](https://github.com/buildwithgrove/grove-releases/releases/latest)
 2. Unzip to a folder on your computer
