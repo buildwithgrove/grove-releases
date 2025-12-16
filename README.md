@@ -1,6 +1,6 @@
 # Grove Extension - Beta Releases <!-- omit in toc -->
 
-[![Download Latest](https://img.shields.io/badge/Download-v1.0.5-389f58?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/buildwithgrove/grove-releases/releases/latest)
+[![Download Latest](https://img.shields.io/badge/Download-v1.0.5_(9a6dace)-389f58?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/buildwithgrove/grove-releases/releases/latest)
 
 Early access to new Grove Chrome Extension features before they reach the Chrome Web Store.
 
