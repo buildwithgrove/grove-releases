@@ -1,15 +1,32 @@
-# Grove Extension - Beta Releases <!-- omit in toc -->
+# Grove Releases <!-- omit in toc -->
 
-[![Download Latest](https://img.shields.io/badge/Download-v1.0.6-389f58?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/buildwithgrove/grove-releases/releases/latest)
-
-Early access to new Grove Chrome Extension features before they reach the Chrome Web Store.
+Public releases for Grove products.
 
 ---
 
-- [Installation](#installation)
-- [Updating](#updating)
+- [CLI](#cli)
+- [Chrome Extension (Beta)](#chrome-extension-beta)
 
-## Installation
+---
+
+## CLI
+
+One-liner install:
+
+```bash
+curl -fsSL https://grove.city/install-cli.sh | bash
+```
+
+- Cross-platform: macOS, Linux, Windows
+- Full docs: https://grove.city/docs/cli
+
+---
+
+## Chrome Extension (Beta)
+
+[![Download Latest](https://img.shields.io/badge/Download-v1.0.6-389f58?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/buildwithgrove/grove-releases/releases/latest)
+
+### Installation
 
 1. [**Download the latest zip**](https://github.com/buildwithgrove/grove-releases/releases/latest)
 2. Unzip to a folder on your computer
@@ -22,15 +39,12 @@ Early access to new Grove Chrome Extension features before they reach the Chrome
 
    ![load-unpacked](./images/load_unpacked.png)
 
-> **Auto-updates:** Beta installs check for new releases every 4 hours. When an update is available, a red badge appears on the extension icon and a banner shows in the popup.
-
-## Updating
+### Updating
 
 When you see the update notification:
 
 1. Download the new zip from the link in the banner
-2. Unzip (can replace the old folder or use a new one)
-3. Go to `chrome://extensions`
-4. Click the **refresh icon** on the Grove extension card
+2. Unzip and replace the old folder
+3. Go to `chrome://extensions` and click the **refresh icon** on the Grove card
 
-> **Note:** Chrome Web Store installs update automatically and won't see beta notifications.
+> **Note:** Beta installs check for updates every 4 hours. Chrome Web Store installs update automatically.
