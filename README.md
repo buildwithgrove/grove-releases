@@ -6,6 +6,8 @@ Public releases for Grove products.
 
 - [CLI](#cli)
 - [Chrome Extension (Beta)](#chrome-extension-beta)
+  - [Installation](#installation)
+  - [Updating](#updating)
 
 ---
 
